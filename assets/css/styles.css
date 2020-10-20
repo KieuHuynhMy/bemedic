@@ -1,0 +1,500 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header.head {
+        background-color: #bcdfd99e;
+        overflow: hidden;
+    }
+    
+    .col-md-6.header-top p {
+        float: left;
+        margin: 10px 10px 10px 0;
+        color: white;
+        font-size: 13px;
+    }
+    
+    .col-md-6.header-top p span {
+        color: #74C4BC;
+    }
+    
+    .col-md-6.social-icon i {
+        margin: 10px;
+        color: white;
+        font-size: 19px;
+    }
+    
+    .row.header-navigation {
+        background-color: white;
+    }
+    
+    a.nav-link {
+        margin: 10px;
+    }
+    /* ----------- Header Bottom ---------------- */
+    
+    .header-bottom p.title {
+        font-size: 48px;
+        margin: 20% 10% 0 20%;
+        font-weight: 100;
+        animation: leftToRight 0.8s forwards;
+        animation-delay: 1.2s;
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    
+    .header-bottom p.title span {
+        color: #54C0B2;
+    }
+    
+    .header-bottom p.content {
+        font-size: 24px;
+        color: gray;
+        font-weight: 200;
+        margin: 6% 0% 0% 20%;
+        animation: leftToRight 1.2s forwards;
+        animation-delay: 1.5s;
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes leftToRight {
+        0% {
+            transform: translateX(-300px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    .header-bottom button {
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        background-color: #54C0B2;
+        margin: 10% 32%;
+        opacity: 0;
+        animation: appear 1.2s forwards;
+        animation-delay: 1.8s;
+    }
+    
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .row.header-bottom {
+        position: relative;
+    }
+    
+    .header-bottom img {
+        position: absolute;
+        left: 20%;
+        bottom: -800px;
+        animation: bottomToTop 1.2s forwards;
+        height: 100%;
+    }
+    
+    @-webkit-keyframes bottomToTop {
+        0% {
+            bottom: -800px;
+        }
+        100% {
+            bottom: 0;
+        }
+    }
+    /* ----------- Services ---------------- */
+    
+    .services {
+        text-align: center;
+        margin: 5% 0;
+    }
+    
+    .services h1 {
+        font-weight: 100;
+    }
+    
+    .services p {
+        font-weight: 100;
+        font-size: 14px;
+    }
+    
+    .services .row {
+        margin: 5% 0;
+    }
+    /* ----------- Woking Hour ---------------- */
+    
+    .col-md-3.get-in-touch {
+        background-color: #54c0b2;
+        color: white;
+        font-size: 14px;
+    }
+    
+    section.working-hour {
+        background-color: #ECF7F6;
+        padding: 5% 0;
+    }
+    
+    .working-hour img {
+        width: 97%;
+    }
+    
+    .working-hour .welcome-to h5 {
+        margin: 16px 0px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+    
+    .col-md-6.welcome-to {
+        font-weight: 200;
+    }
+    
+    .col-md-6.welcome-to {
+        font-weight: 200;
+    }
+    
+    .opening,
+    .get-in-touch {
+        padding: 20px;
+        font-weight: 200;
+    }
+    
+    .opening {
+        background-color: white;
+        font-size: 14px;
+    }
+    
+    .get-in-touch i {
+        color: black;
+        font-size: 25px;
+        margin-right: 22px;
+    }
+    
+    .get-in-touch i {
+        color: black;
+        font-size: 25px;
+        margin-right: 22px;
+    }
+    
+    .day {
+        width: 121px;
+        background-color: #F8F8F8;
+        margin: auto;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    
+    .time p {
+        text-align: center;
+        font-size: 30px;
+        color: #54C0B2;
+    }
+    
+    .time p span {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    /* ----------- Listing ---------------- */
+    
+    .list {
+        margin: 5%;
+    }
+    
+    .list .title {
+        text-align: center;
+    }
+    
+    .list .title h5 {
+        color: #808080cc;
+        text-transform: uppercase;
+    }
+    
+    .list .title p {
+        color: #54c0b2;
+        font-size: 40px;
+        font-weight: 200;
+    }
+    
+    .list i {
+        font-size: 50px;
+        color: #54c0b2;
+        padding: 23px;
+    }
+    
+    .list .col-md-4 {
+        display: flex;
+        margin: 17px 0px;
+    }
+    /* ----------- Appointment ---------------- */
+    
+    .appointment p {
+        background-color: #54c0b2;
+        text-align: center;
+        padding: 5%;
+        font-size: 27px;
+        color: white;
+        margin-bottom: 0;
+    }
+    /* ----------- Doctors ---------------- */
+    
+    .doctors img {
+        width: 100%;
+    }
+    
+    section.doctors {
+        padding: 5%;
+        background-color: #EEF1F6;
+    }
+    
+    .doctors p {
+        font-size: 13px;
+        font-weight: 200;
+    }
+    
+    .doctors .social-icon i {
+        font-size: 26px;
+        margin: 6px;
+        transition: 0.4s;
+    }
+    
+    .doctors .social-icon i:hover {
+        color: #54c0b2;
+    }
+    /* ----------- Footer ---------------- */
+    
+    footer {
+        background-color: dimgray;
+        color: white;
+        padding: 2% 0;
+        text-align: center;
+    }
+    /* ----------- On Mobile ---------------- */
+    
+    @media only screen and (max-width: 1024px) {
+        .header-bottom p.title {
+            font-size: 41px;
+        }
+        .header-bottom button {
+            font-size: 16px;
+            margin: 76px 92px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .col-md-6.header-top p:nth-child(1) {
+            display: none;
+        }
+        .col-md-6.header-top {
+            padding: 0 0 0 83px;
+        }
+        .col-md-6.social-icon {
+            padding: 0 0 0 130px;
+        }
+        a.navbar-brand {
+            margin-right: 546px;
+        }
+        .header-bottom p.title {
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        .header-bottom p.content {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        .header-bottom button {
+            margin: 50px 20px;
+        }
+        .header-bottom p.title {
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        .header-bottom p.content {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        .header-bottom button {
+            margin: 50px 20px;
+        }
+        .list .content {
+            font-size: 12px;
+        }
+        .list i {
+            font-size: 20px;
+        }
+        .doctors .social-icon i {
+            font-size: 18px;
+        }
+        .get-in-touch i {
+            display: none;
+        }
+        .doctors .col-md-6 {
+            margin: 6px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 767px) and (min-width: 540px) {
+        .col-md-6.header-top p:nth-child(1) {
+            display: none;
+        }
+        .col-md-6.header-top {
+            padding: 0 0 0 150px;
+        }
+        .col-md-6.social-icon {
+            padding: 0 0 0 196px;
+        }
+        a.navbar-brand {
+            margin-right: 366px;
+        }
+        .header-bottom p.title {
+            font-size: 25px;
+            margin-left: 38px;
+            margin-top: 40px;
+        }
+        .header-bottom p.content {
+            font-size: 13px;
+            margin-left: 38px;
+            width: 40%;
+        }
+        .header-bottom button {
+            font-size: 13px;
+            margin-left: 38px;
+        }
+        .header-bottom .col-md-6 img {
+            height: 276px;
+            margin-left: 200px;
+        }
+        .doctors .col-md-6 {
+            margin: 13px 14px;
+        }
+    }
+    
+    @media only screen and (max-width: 539px) and (min-width:376px) {
+        .col-md-6.header-top p:nth-child(1) {
+            display: none;
+        }
+        .col-md-6.header-top {
+            padding: 0 0 0 83px;
+        }
+        .col-md-6.social-icon {
+            padding: 0 0 0 130px;
+        }
+        a.navbar-brand {
+            margin-right: 237px;
+        }
+        .header-bottom p.title {
+            margin-left: 5px;
+            font-size: 19px;
+        }
+        .header-bottom p.content {
+            margin-left: 5px;
+            font-size: 12px;
+            width: 40%;
+        }
+        .header-bottom button {
+            margin: 35px 0px;
+        }
+        .header-bottom img {
+            height: 276px;
+            margin-left: 138px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .col-md-6.header-top {
+            padding: 0 0 0 60px;
+        }
+        .col-md-6.header-top p:nth-child(1) {
+            display: none;
+        }
+        .col-md-6.social-icon {
+            padding: 0 0 0 105px;
+        }
+        a.navbar-brand {
+            margin-right: 184px;
+        }
+        .row.header-bottom .title {
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        .row.header-bottom .content {
+            font-size: 10px;
+            margin-left: 5px;
+            width: 45%;
+        }
+        .row.header-bottom button {
+            font-size: 11px;
+            margin-left: 5px;
+        }
+        .header-bottom img {
+            height: 254px;
+            margin-left: 115px;
+        }
+        .services h1 {
+            font-size: 29px;
+        }
+        .list .title p {
+            font-size: 30px;
+        }
+        .list .title h5 {
+            font-size: 18px;
+        }
+        .list .row .col-md-4 {
+            padding: 0;
+        }
+        .appointment p {
+            font-size: 18px;
+        }
+        .doctors .col-md-6 {
+            margin: 13px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .col-md-6.header-top {
+            padding: 0 0 0 38px;
+        }
+        .col-md-6.social-icon {
+            padding: 0 0 0 84px;
+        }
+        a.navbar-brand {
+            margin-right: 146px;
+        }
+    }
+    
+    @media only screen and (max-width: 280px) {
+        .col-md-6.header-top {
+            padding: 0 0 0 14px;
+        }
+        .col-md-6.social-icon {
+            padding: 0px 0 0 62px;
+        }
+        a.navbar-brand {
+            margin-right: 106px;
+        }
+        .row.header-bottom .title {
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        .row.header-bottom .content {
+            font-size: 9px;
+            margin-left: 0px;
+            width: 45%;
+        }
+        .row.header-bottom img {
+            height: 212px;
+            margin-left: 82px;
+        }
+        .row.header-bottom button {
+            font-size: 9px;
+            padding: 8px 10px;
+            margin: 31px 0 50px 0;
+        }
+    }
